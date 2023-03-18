@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include orc *.css
+recursive-include orc *.csv
+recursive-include orc *.html
+recursive-include orc *.ico
+recursive-include orc *.js
+recursive-include orc *.json
+recursive-include orc *.md
+recursive-include orc *.png
+recursive-include orc *.py
+recursive-include orc *.svg
+recursive-include orc *.txt
+recursive-exclude orc *.pyc

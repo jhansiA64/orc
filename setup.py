@@ -9,9 +9,9 @@ from orc import __version__ as version
 setup(
 	name="orc",
 	version=version,
-	description="ORC",
-	author="Aravind Mandala",
-	author_email="aravind.m@64network.com",
+	description="orc",
+	author="jhansi64",
+	author_email="jhansi.a64@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

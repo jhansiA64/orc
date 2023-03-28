@@ -1,10 +1,10 @@
 from . import __version__ as app_version
 
 app_name = "orc"
-app_title = "ORC"
-app_publisher = "Aravind Mandala"
-app_description = "ORC"
-app_email = "aravind.m@64network.com"
+app_title = "orc"
+app_publisher = "jhansi64"
+app_description = "orc"
+app_email = "jhansi.a64@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
@@ -154,6 +154,20 @@ app_license = "MIT"
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
 
+# Ignore links to specified DocTypes when deleting documents
+# -----------------------------------------------------------
+
+# ignore_links_on_delete = ["Communication", "ToDo"]
+
+# Request Events
+# ----------------
+# before_request = ["orc.utils.before_request"]
+# after_request = ["orc.utils.after_request"]
+
+# Job Events
+# ----------
+# before_job = ["orc.utils.before_job"]
+# after_job = ["orc.utils.after_job"]
 
 # User Data Protection
 # --------------------

@@ -15,7 +15,13 @@
   "status",
   "customer_name",
   "items_section",
-  "items"
+  "items",
+  "section_break_6vrea",
+  "total_qty",
+  "column_break_wwowx",
+  "sub_total",
+  "tds_tax",
+  "grand_total"
  ],
  "fields": [
   {
@@ -70,13 +76,44 @@
    "fieldtype": "Link",
    "label": "Customer Name",
    "options": "Customer"
+  },
+  {
+   "fieldname": "section_break_6vrea",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Float",
+   "label": "Total Qty"
+  },
+  {
+   "fieldname": "column_break_wwowx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "Currency",
+   "label": "Sub Total",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "tds_tax",
+   "fieldtype": "Currency",
+   "label": "(-)TDS @ 5%",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Grand Total",
+   "options": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-20 21:22:09.819717",
+ "modified": "2023-03-29 10:55:04.372663",
  "modified_by": "Administrator",
- "module": "ORC",
+ "module": "orc",
  "name": "Orc List",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",

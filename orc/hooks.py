@@ -81,6 +81,15 @@ app_license = "MIT"
 # Permissions
 # -----------
 # Permissions evaluated in scripted ways
+fixtures = [{"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+                "Opportunity item-orc"
+
+            ]
+        ]
+    ]},"Client Script","Property Setter"
+]
 
 # permission_query_conditions = {
 #	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",

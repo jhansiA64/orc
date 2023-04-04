@@ -76,7 +76,7 @@ app_license = "MIT"
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "orc.notifications.get_notification_config"
+# nosssstification_config = "orc.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -86,7 +86,7 @@ fixtures = [{"dt": "Custom Field", "filters": [
             "name", "in", [
                 "Opportunity item-orc","Opportunity Item-column_break_aeclv",
 		"Opportunity Item-rate_value","Opportunity Item-commission_type",
-		"Opportunity Item-commission_section"
+		"Opportunity Item-commission_section","Sales Partner-bank_details","Sales Partner-bank_details_section","Sales Partner-customer_name"
 
             ]
         ]

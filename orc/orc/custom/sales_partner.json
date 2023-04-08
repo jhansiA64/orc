@@ -170,7 +170,7 @@
    "name": "Sales Partner-bank_details",
    "no_copy": 0,
    "non_negative": 0,
-   "options": "Orc Bank Details",
+   "options": "ORC Bank Details",
    "owner": "Administrator",
    "parent": null,
    "parentfield": null,

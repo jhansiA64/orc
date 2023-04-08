@@ -69,7 +69,7 @@
    "fieldname": "items",
    "fieldtype": "Table",
    "label": "Items",
-   "options": "Orc Item"
+   "options": "ORC Item"
   },
   {
    "fieldname": "customer_name",
@@ -111,10 +111,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-29 10:55:04.372663",
+ "modified": "2023-04-08 22:07:14.982744",
  "modified_by": "Administrator",
  "module": "orc",
- "name": "Orc List",
+ "name": "ORC List",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [

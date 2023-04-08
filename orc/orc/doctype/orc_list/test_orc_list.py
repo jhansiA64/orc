@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestOrcList(FrappeTestCase):
+class TestORCList(FrappeTestCase):
 	pass

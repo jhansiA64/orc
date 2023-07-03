@@ -21,7 +21,8 @@
   "column_break_wwowx",
   "sub_total",
   "tds_tax",
-  "grand_total"
+  "grand_total",
+  "amended_from"
  ],
  "fields": [
   {
@@ -36,13 +37,15 @@
    "fieldname": "sales_partner",
    "fieldtype": "Link",
    "label": "Sales Partner",
-   "options": "Sales Partner"
+   "options": "Sales Partner",
+   "reqd": 1
   },
   {
    "fieldname": "opportunity_id",
    "fieldtype": "Link",
    "label": "Opportunity ID",
-   "options": "Opportunity"
+   "options": "Opportunity",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_4",
@@ -55,10 +58,12 @@
    "options": "Company"
   },
   {
+   "allow_on_submit": 1,
+   "default": "Open",
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Open\nClosed"
+   "options": "Open\nApproved\nWaiting For Payment\nPayout\nClosed"
   },
   {
    "fieldname": "items_section",
@@ -94,43 +99,43 @@
    "fieldname": "sub_total",
    "fieldtype": "Currency",
    "label": "Sub Total",
-   "options": "Currency"
+   "options": "Currency",
+   "read_only": 1
   },
   {
    "fieldname": "tds_tax",
    "fieldtype": "Currency",
    "label": "(-)TDS @ 5%",
-   "options": "Currency"
+   "options": "Currency",
+   "read_only": 1
   },
   {
    "fieldname": "grand_total",
    "fieldtype": "Currency",
    "label": "Grand Total",
-   "options": "Currency"
+   "options": "Currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "ORC List",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-04-08 22:07:14.982744",
+ "modified": "2023-05-29 12:48:22.420911",
  "modified_by": "Administrator",
  "module": "orc",
  "name": "ORC List",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

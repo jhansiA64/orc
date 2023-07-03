@@ -86,7 +86,8 @@ fixtures = [{"dt": "Custom Field", "filters": [
             "name", "in", [
                 "Opportunity item-orc","Opportunity Item-column_break_aeclv",
 		"Opportunity Item-rate_value","Opportunity Item-commission_type",
-		"Opportunity Item-commission_section","Sales Partner-bank_details","Sales Partner-bank_details_section","Sales Partner-customer_name"
+		"Opportunity Item-commission_section","Sales Partner-bank_details","Sales Partner-bank_details_section","Sales Partner-customer_name",
+		"ORC List-pan_number","ORC List-sales_invoice_id","ORC List-contact_person","ORC List-workflow_state"
 
             ]
         ]

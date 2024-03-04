@@ -32,8 +32,8 @@
   "label": "Workflow State",
   "length": 0,
   "mandatory_depends_on": null,
-  "modified": "2023-07-03 10:51:21.886415",
-  "module": "orc",
+  "modified": "2023-04-10 17:55:24.011222",
+  "module": null,
   "name": "ORC List-workflow_state",
   "no_copy": 1,
   "non_negative": 0,
@@ -48,6 +48,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -85,8 +86,8 @@
   "label": "Contact Person",
   "length": 0,
   "mandatory_depends_on": null,
-  "modified": "2023-07-03 10:50:42.447569",
-  "module": "orc",
+  "modified": "2023-04-12 13:32:58.596933",
+  "module": null,
   "name": "ORC List-contact_person",
   "no_copy": 0,
   "non_negative": 0,
@@ -101,6 +102,7 @@
   "report_hide": 0,
   "reqd": 1,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -154,6 +156,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -191,8 +194,8 @@
   "label": "PAN Number",
   "length": 0,
   "mandatory_depends_on": null,
-  "modified": "2023-07-03 10:44:17.669455",
-  "module": "orc",
+  "modified": "2023-06-16 12:48:35.983956",
+  "module": null,
   "name": "ORC List-pan_number",
   "no_copy": 0,
   "non_negative": 0,
@@ -207,6 +210,7 @@
   "report_hide": 0,
   "reqd": 1,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 1,
   "unique": 0,
   "width": null
@@ -219,7 +223,7 @@
   "collapsible_depends_on": null,
   "columns": 0,
   "default": null,
-  "depends_on": null,
+  "depends_on": "eval: !doc.__islocal",
   "description": null,
   "docstatus": 0,
   "doctype": "Custom Field",
@@ -260,6 +264,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -313,6 +318,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -350,8 +356,8 @@
   "label": "Sales Invoice ID",
   "length": 0,
   "mandatory_depends_on": null,
-  "modified": "2023-07-03 10:45:27.214658",
-  "module": "orc",
+  "modified": "2023-04-17 12:24:17.179237",
+  "module": null,
   "name": "ORC List-sales_invoice_id",
   "no_copy": 0,
   "non_negative": 0,
@@ -366,6 +372,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -419,6 +426,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -472,6 +480,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -525,6 +534,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 0,
   "unique": 0,
   "width": null
@@ -578,6 +588,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 1,
   "unique": 0,
   "width": null
@@ -631,6 +642,7 @@
   "report_hide": 0,
   "reqd": 0,
   "search_index": 0,
+  "sort_options": 0,
   "translatable": 1,
   "unique": 0,
   "width": null

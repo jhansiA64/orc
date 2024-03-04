@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-26 10:46:54.792107",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "invoice_no",
+  "orc_id",
+  "pan_number",
+  "posting_date",
+  "amount",
+  "outstanding_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Invoice No",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "orc_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "ORC ID",
+   "options": "ORC List"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PAN Number"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "outstanding_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Outstanding Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-26 10:50:10.023625",
+ "modified_by": "Administrator",
+ "module": "orc",
+ "name": "Invoice Outstanding",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

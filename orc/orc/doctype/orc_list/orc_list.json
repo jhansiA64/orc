@@ -26,7 +26,9 @@
   "amended_from",
   "section_break_dlqj",
   "column_break_glwj",
-  "orc_margin_table"
+  "orc_margin_table",
+  "more_info_section",
+  "cof_id"
  ],
  "fields": [
   {
@@ -150,12 +152,26 @@
    "fieldname": "column_break_glwj",
    "fieldtype": "Column Break",
    "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "more_info_section",
+   "fieldtype": "Section Break",
+   "label": "More Info"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "cof_id",
+   "fieldtype": "Link",
+   "label": "COF ID",
+   "options": "Customer Order Form",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-02-27 18:09:25.878584",
+ "modified": "2024-06-24 11:41:42.524304",
  "modified_by": "Administrator",
  "module": "orc",
  "name": "ORC List",

@@ -20,6 +20,7 @@
   "quantity_and_rate_section",
   "base_rate",
   "base_amount",
+  "opportunity_item",
   "column_break_16",
   "rate",
   "sales_stage",
@@ -234,11 +235,17 @@
    "fieldname": "margin",
    "fieldtype": "Currency",
    "label": "Margin"
+  },
+  {
+   "fieldname": "opportunity_item",
+   "fieldtype": "Link",
+   "label": "Opportunity Item",
+   "options": "Opportunity Item"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2024-02-26 12:27:08.867239",
+ "modified": "2024-09-26 12:41:02.193487",
  "modified_by": "Administrator",
  "module": "orc",
  "name": "ORC Item",
